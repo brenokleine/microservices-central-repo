@@ -1,0 +1,12 @@
+services:
+  user-service:
+    build:
+      context: ./user_microservice
+    ports:
+      - "8081:8081"
+
+  email-service:
+    build:
+      context: ./email_microservice
+    ports:
+      - "8082:8082"
