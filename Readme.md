@@ -42,3 +42,14 @@ To build and run the services, use Docker Compose:
 ```sh
 docker-compose up --build
 ```
+
+## Make a user post and see email inbox (or spam)
+Make a post to localhost:8081/users with the following body:
+```sh
+{
+  "name": "your name here",
+  "email": "youremail@email.com"
+}
+```
+
+See your email inbox with the welcoming email
