@@ -24,7 +24,7 @@ Database used is Supabase
 To clone this repository along with its submodules, run the following command:
 
 sh
-git clone --recurse-submodules https://github.com/brenokleine/microservices-user-email-central-repo/
+git clone --recurse-submodules https://github.com/brenokleine/microservices-central-repo
 
 Go inside the project directory with the following command:
 sh
