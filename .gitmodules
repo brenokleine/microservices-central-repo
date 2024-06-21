@@ -1,0 +1,6 @@
+[submodule "email_microservice"]
+	path = email_microservice
+	url = https://github.com/brenokleine/email_microservice
+[submodule "user_microservice"]
+	path = user_microservice
+	url = https://github.com/brenokleine/user_microservice
